@@ -56,7 +56,7 @@ vet: ## Run go vet against code.
 
 .PHONY: test
 test: manifests generate fmt vet envtest ## Run tests.
-	echo test
+	echo tests
 
 ##@ Build
 
